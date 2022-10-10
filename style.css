@@ -33,7 +33,22 @@ body{
     margin: 5px;
     padding: 5px;
 }
-
+/* .card includes all shared styles and properties for cards */
+ .card {
+    /* border: 2px solid skyblue; */
+    background-color: whitesmoke;
+    border-radius: 3px;
+    padding: 8px;
+    margin: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 4px;
+    background-color: whitesmoke;
+    border-radius: 3px;
+ 
+    
+}
 
 @media only screen and (max-width: 600px) {
     .main{

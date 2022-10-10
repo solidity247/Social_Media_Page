@@ -1,0 +1,26 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: red;
+}
+
+.aside-right {
+    width: 350px;
+
+}
+
+.aside-right .events, .aside-right .friend-request, .aside-right  .ADS .aside-right .bug {
+    width: 100%;
+    padding: 5px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.aside-right .events .event-picture{
+    background-image: url(https://images.pexels.com/photos/716281/pexels-photo-716281.jpeg?auto=compress&cs=tinysrgb&w=600);
+    /*  cover/content */
+}
