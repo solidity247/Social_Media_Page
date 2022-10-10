@@ -10,10 +10,12 @@ body {
 
 .main {
   display: flex;
+  justify-content: center;
 }
 
 .left {
   width: 25%;
+  min-width: 350px;
   border: 1px dotted black;
   margin: 5px;
   padding: 5px;
@@ -21,6 +23,7 @@ body {
 
 .right {
   width: 18%;
+  min-width: 350px;
   border: 1px dotted black;
   margin: 5px;
   padding: 5px;
@@ -44,6 +47,7 @@ body {
 .main-center {
   margin: 0 5px 0 5px;
   margin-bottom: 20px;
+  min-width: 450px;
 }
 
 .status-text {
@@ -171,6 +175,9 @@ p {
 @media only screen and (max-width: 600px) {
   .main {
     flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
   /* Aigerim phone screen layout */
