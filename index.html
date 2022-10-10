@@ -15,9 +15,11 @@
       <!-- logo+text, icon*3. Position - fixed -->
       <div class="main">    <!-- here we are going to have all our three main columns "aside.left", main, aside.righ, -->
         <aside class="left">
-          <div class="my-profile">
+
+          <div class="leftcard my-profile">
             <h3>My Profile</h3>
-            <img src="https://miro.medium.com/max/640/1*u9XxY1pRzpqNWR1wJINBeA.jpeg" alt="profile picture">
+            <div class="profile-picture"></div>
+            <!-- <img src="https://miro.medium.com/max/640/1*u9XxY1pRzpqNWR1wJINBeA.jpeg" alt="profile picture"> -->
             <ul>
               <li><i class="fa-solid fa-user-tie"></i> John Smith</li>
               <li><i class="fa-solid fa-briefcase"></i> Software Engineer</li>
@@ -25,34 +27,53 @@
               <li><datagrid><i class="fa-regular fa-calendar"></i> 10 January 2001</datagrid></li>
             </ul>
           </div>
-          <div class="menu">
-            <div class="my-groups"></div>
-            <p></p>
-            <div class="my-events"></div>
-            <p></p>
-            <div class="my-photos"></div>
-            <div class="photo-collage">
-              <div class="collage-pic"></div>
-              <div class="collage-pic"></div>
-              <div class="collage-pic"></div>
-              <div class="collage-pic"></div>
-              <div class="collage-pic"></div>
-              <div class="collage-pic"></div>
-            </div>
+
+          <div class="leftcard menu">
+            <h4><i class="fa-solid fa-users-line"></i> Communities</h4>
+            <p>some groups</p>
+            <h4><i class="fa-solid fa-calendar-check"></i> Events</h4>
+            <p>some events</p>
+            <h4><i class="fa-solid fa-images"></i> Photo gallery</h4>
+              
+            <div class="collage-pic"></div>
+            <div class="collage-pic"></div>
+            <div class="collage-pic"></div>
+            <div class="collage-pic"></div>
+            <div class="collage-pic"></div>
+            <div class="collage-pic"></div>
+ 
           </div>
           
-          <div class="interests">
-
+          <div class="leftcard interests">
+            <h4><i class="fa-solid fa-masks-theater"></i> Interests</h4>
+            <div class="interests-links">
+              <a class="strong-3" href="#">News</a>
+              <a class="strong-3" href="#">Games</a>
+              <a class="strong-2" href="#">Sports</a>
+              <a class="strong-2" href="#">Music</a>
+              <a class="strong-2" href="#">Travel</a>
+              <a class="strong-1" href="#">Sciense</a>
+              <a class="strong-1"href="#">Politic</a>
+            </div>
           </div>
 
-
-
+          <div class="leftcard visitors">
+            <h4>Look who visited your page!</h4>
+            <i class="fa-solid fa-square-xmark"></i>
+            <div class="visitor-raw">
+              <div class="visitor-small"></div>
+              <div class="visitor-small"></div>
+              <div class="visitor-small"></div>
+            </div>
+          </div>
 
         </aside>
-        
+     
         
         <main class="center"></main>
         <aside class="right"></aside>
+
+
       </div>
 
       <footer></footer>
