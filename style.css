@@ -1,59 +1,188 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(225, 225, 225);    
+body {
+  background-color: rgb(225, 225, 225);
+  margin: 0;
+  padding: 0;
 }
 
-.main{
-    width: 1200px;
-    height: 2000px;
-    border: 2px solid slategray;
-    margin: auto;
-    display: flex;
-}
-.left{
-    width: 25%;
-    border: 1px dotted black;
-    margin: 5px;
-    padding: 5px;
+.main {
+  display: flex;
 }
 
-.center{
-    width: 57%;
-    border: 1px dotted black;
-    margin: 5px;
-    padding: 5px;
+.left {
+  width: 25%;
+  border: 1px dotted black;
+  margin: 5px;
+  padding: 5px;
 }
 
-.right{
-    width: 18%;
-    border: 1px dotted black;
-    margin: 5px;
-    padding: 5px;
+.right {
+  width: 18%;
+  border: 1px dotted black;
+  margin: 5px;
+  padding: 5px;
 }
 /* .card includes all shared styles and properties for cards */
- .card {
-    /* border: 2px solid skyblue; */
-    background-color: whitesmoke;
-    border-radius: 3px;
-    padding: 8px;
-    margin: 4px;
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0px 0px 4px;
-    background-color: whitesmoke;
-    border-radius: 3px;
- 
-    
+.card {
+  /* border: 2px solid skyblue; */
+  background-color: whitesmoke;
+  border-radius: 3px;
+  padding: 8px;
+  margin: 4px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 4px;
+  background-color: whitesmoke;
+  border-radius: 3px;
 }
 
+/* Aigerim start Style*/
+.main-center {
+  max-width: 756px;
+  min-width: 400px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.status-text {
+  padding: 15px;
+  border: solid 4px light gray;
+  margin-top: 20px;
+  border: solid 2px lightgray;
+}
+
+.search-post {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-post {
+  width: 90px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: rgb(25, 157, 229);
+  border: none;
+  color: white;
+}
+.poster-name {
+  font-weight: bold;
+}
+
+.post-1,
+.post-2,
+.post-3,
+.new-post {
+  width: 90%;
+  margin: auto;
+}
+
+.container-1,
+.container-2,
+.container-3,
+.new-post {
+  padding: 15px;
+  margin-top: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  border-radius: 5px;
+}
+.person-one,
+.person-two,
+.person-tree {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+#name-pic {
+  display: flex;
+  align-items: center;
+}
+
+.poster-pic {
+  display: flex;
+  border: none;
+  border-radius: 100%;
+  margin-right: 10px;
+  border-bottom: solid 1px lightgray;
+}
+.poster-name {
+  width: 100px;
+}
+.time-left {
+  display: flex;
+  font-size: 15px;
+  color: gray;
+}
+.main-post-pic {
+  display: flex;
+  gap: 15px;
+}
+.post-btn {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.like.btn {
+  margin-left: 10px;
+}
+
+.like-btn,
+.comment-btn {
+  padding: 10px 20px 10px 20px;
+  background-color: rgb(25, 157, 229);
+  border: none;
+  color: white;
+  font-size: smaller;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+}
+
+.last-para {
+  margin-bottom: 0;
+}
+.post-text {
+  border-top: solid 1px lightgray;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.link-bootcamp {
+  color: black;
+}
+
+.btn-hover:hover {
+  background-color: darkgray;
+  color: black;
+}
+
+.comment-pic {
+  display: inline-block;
+  width: 48%;
+}
+
+/* Aigerim end Style*/
+
 @media only screen and (max-width: 600px) {
-    .main{
-        flex-direction: row;
-    }
+  .main {
+    flex-direction: column;
   }
 
-  
+  /* Aigerim phone screen layout */
+  .main-post-pic {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .comment-pic {
+    width: 100%;
+  }
+}
