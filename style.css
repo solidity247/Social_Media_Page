@@ -42,9 +42,7 @@ body {
 
 /* Aigerim start Style*/
 .main-center {
-  max-width: 756px;
-  min-width: 400px;
-  margin: auto;
+  margin: 0 5px 0 5px;
   margin-bottom: 20px;
 }
 
@@ -77,7 +75,6 @@ body {
 .post-2,
 .post-3,
 .new-post {
-  width: 90%;
   margin: auto;
 }
 
