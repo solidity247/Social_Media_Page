@@ -29,8 +29,8 @@
     background-size: cover;
 }
 .right  h4 {
-    border: 1px dotted red;
-    color:red;
+    border: 1px dotted black;
+    color:black;
     text-align: center;
 
 }
@@ -41,9 +41,30 @@
     /* background-position: ; */
     margin:auto;
     aspect-ratio: 1 / 1;
+    background-size: cover;
 }
 .bug .fa-solid {
     display: flex;
     justify-content: center;
+    size: 100%;
+   
+    }
     
+.bug {
+    padding: 60px;
+    margin-top: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    border-radius: 5px;
 }
+.courses p {
+    text-align: center;
+    margin-top: 0;
+    padding: 10px; 
+}
+.time {
+    text-align: center;
+    margin-top: 0;
+    padding: 10px; 
+    }
+.button
