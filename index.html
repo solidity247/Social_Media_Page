@@ -7,6 +7,7 @@
     <title>Social Media</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="left-column.css" />
+    <link rel="stylesheet" href="right-column.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -20,7 +21,7 @@
 
     <!-- logo+text, icon*3. Position - fixed -->
     <div class="main">
-      <!-- here we are going to have all our three main columns "aside.left", main, aside.righ -->
+      <!-- here we are going to have all our three main columns "aside.left", main, aside.right -->
       <aside class="left">
         <div class="card my-profile">
           <h3>My Profile</h3>
@@ -221,9 +222,9 @@
         <div class="card events">
           <h4>Upcoming Events:</h4>
           <div class="event-picture"></div>
-          <!-- add backgr img in CSS -->
-          <p>ReactCourse</p>
-          <div>Friday 15:00</div>
+           <div class="courses">
+           <p>ReactCourse</p> </div>
+          <div class="Day time">Friday 15:00</div>
           <button>Info</button>
         </div>
 
@@ -231,14 +232,18 @@
           <h4>Friend Request</h4>
           <div class="friend-pic"></div>
           <div>
-            <button>(logo +)</button>
+            <button><i class="fa-solid fa-square-check"></i>
+            </button>
             <button>(logo -)</button>
           </div>
         </div>
         <div class="card ADS">
           <p>ADS</p>
-        </div>
-        <div class="card bug">logo of bug</div>
+          </div>
+        <div class="container-bug">
+        <div class="card bug">
+        <i class="fa-solid fa-bug"></i> 
+      </div>
       </aside>
     </div>
 

@@ -1,5 +1,14 @@
+:root{
+  --var
+}
+
+
 * {
+  /* box-sizing: border-box; */
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
+  /* color: red; */
 }
 
 body {
@@ -171,6 +180,13 @@ p {
 }
 
 /* Aigerim end Style*/
+
+
+.bug i{
+  font-size: 50px;
+}
+
+
 
 @media only screen and (max-width: 600px) {
   .main {
