@@ -1,0 +1,80 @@
+:root {
+    --blue: #199de5;
+    --darkblue: #076490;
+  }
+  html {
+    padding: 0;
+    margin: 0;
+    
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    position: relative;
+  }
+  .main {
+    padding: 80px 100px;
+  }
+  
+    .sky, footer {
+    width: 1200px;
+  }
+  .sky {
+    position: fixed;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px auto;
+    
+  }
+  
+  .house {
+    background-color: var(--darkblue);
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .house:hover {
+    background-color: gray;
+  }
+  
+  .contact {
+    background-color: var(--blue);
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+  }
+  .contact .li {
+    color: white;
+    padding: 15px 25px;
+  }
+  
+  .contact .li:hover {
+    color: black;
+    background-color: white;
+  }
+  
+  .foot {
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+    bottom: 0px;
+  }
+  #foot {
+    background-color: var(--blue);
+    color: white;
+    padding: 15px 24px;
+    font-size: large
+  }
+  #teamname {
+    background-color: var( --darkblue);
+    padding: 5px 24px;
+    color: white; 
+  }
+  #blank {
+    color: white;
+  }
+  
